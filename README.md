@@ -121,7 +121,7 @@ Zabbix/
 - Network connectivity to hosts for SNMP monitoring
 
 ## License
-[Specify your license here if applicable]
+Released under the MIT license.
 
 ## Contributing
 Feel free to submit issues or pull requests to improve the scripts.
