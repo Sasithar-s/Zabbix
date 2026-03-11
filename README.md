@@ -54,7 +54,7 @@ The script generates an XML file compatible with Zabbix's import functionality c
 2. **Run the script:**
    ```bash
    chmod +x "zabbix host add.sh"
-   ./add.sh > zabbix_hosts.xml
+   ./"zabbix host add.sh" > zabbix_hosts.xml
    ```
 
 3. **Import into Zabbix:**
@@ -83,7 +83,7 @@ echo "web-server.example.com,10.0.0.50,Linux servers,Linux Server" >> sample.csv
 echo "db-server.example.com,10.0.0.51,Linux servers,MySQL Server" >> sample.csv
 
 # 2. Generate XML
-./add.sh > zabbix_export.xml
+./"zabbix host add.sh" > zabbix_export.xml
 
 # 3. Import in Zabbix UI
 # Use the XML file for bulk import
